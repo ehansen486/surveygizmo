@@ -16,7 +16,7 @@ Gem::Specification.new do |s|
   # s.add_development_dependency 'rspec'
   # Gems
   s.add_dependency 'hashie', '~> 1.1.0'
-  s.add_dependency 'faraday', '~> 0.7.4'
+  s.add_dependency 'faraday', '>= 0.8.2'
   s.add_dependency 'faraday_middleware', '~> 0.7.0'
 
   s.files         = `git ls-files`.split("\n")
